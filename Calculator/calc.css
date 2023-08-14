@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+#container{
+    margin: 50px auto;
+    width: 40%;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: gray;
+    
+}
+
+table{
+   
+    width: 100%;
+}
+
+.number{
+    padding: 5px;
+    height: 45px;
+    width: 100%;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white;
+}
+
+.operator{
+    padding: 5px;
+    height: 45px;
+    width: 100%;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: orange;
+}
+
+#clear{
+    padding: 5px;
+    height: 45px;
+    width: 100%;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: lightblue;
+}
+#equal{
+    padding: 5px;
+    height: 45px;
+    width: 100%;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: lightgreen;
+}
+
+#screen{
+    width: 92%;
+    margin-bottom: 20px;
+    padding: 20px ;
+    margin: auto;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 25px;
+}
+
+
+.number:hover{
+    background-color: gray;
+}
+
+.operator:hover, #clear:hover, #eqaul:hover{
+    background-color: transparent;
+}
+
+#history{
+    font-size: 20px;
+    text-align: center;
+}
